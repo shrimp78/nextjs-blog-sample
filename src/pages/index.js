@@ -39,7 +39,7 @@ export default function Home({ allPostsData }) {
         <p>Microblog Layout &gt; section &gt; p tag </p>
       </section>
       <section className={`${utilStyle.headingMd} ${utilStyle.padding1px}`}>
-        <h2>✍ Engineers blog</h2>
+        <h2>✍ Sample blog from Udemy course</h2>
         <div className={styles.grid}>
           {allPostsData.map(({ id, title, date, thumbnail }) => (
             <article key={id}>
